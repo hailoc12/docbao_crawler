@@ -8,7 +8,7 @@ Facebook: https://www.facebook.com/danghailochp
 # Giới thiệu:  
 Đọc Báo Crawler là phần lõi quét dữ liệu cuả dự án [Theo Dõi Báo Chí](https://github.com/hailoc12/docbao) được tác giả đóng gói và đơn giản hoá thành một thư viện và template, nhằm giúp các project trong lĩnh vực Machine Learning, Data Science nhanh chóng xây dựng được phần lõi quét dữ liệu phục vụ dự án.  
 
-Mã nguồn cuả Đọc Báo Crawler đã được xây dựng và test liên tục trong 1 năm rưỡi qua, và có thể hoạt động ổn định trong môi trường production (xem thêm demo quétsong song 35 trang báo sử dụng 10 trình duyệt Firefox cùng lúc tại https://youtu.be/cPZ1X1AAIsk và website hiển thị dữ liệu đã quét của dự án Theo Dõi Báo Chí tại https://theodoibaochi.com)   
+Mã nguồn cuả Đọc Báo Crawler đã được xây dựng và test liên tục trong 1 năm rưỡi qua, và có thể hoạt động ổn định trong môi trường production (xem thêm demo quétsong song 35 trang báo sử dụng 10 trình duyệt Firefox cùng lúc tại https://www.youtube.com/watch?v=Y6fl9j6DY1M và website hiển thị dữ liệu đã quét của dự án Theo Dõi Báo Chí tại https://theodoibaochi.com)   
 
 Sử dụng Đọc Báo Crawler, các dự án mới tránh sẽ tránh được rất nhiều vấn để ẩn trong bài toán quét dữ liệu. Một vài vấn đề thường gặp nhất bao gồm:  
 - Xếp thời gian quét ngẫu nhiên để tránh bị website block  
