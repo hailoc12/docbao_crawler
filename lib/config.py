@@ -1,7 +1,4 @@
 from lib.utils import *
-import pytz
-import yaml
-from datetime import timedelta
 
 # class represents config to crawl a specific website
 class WebConfig:

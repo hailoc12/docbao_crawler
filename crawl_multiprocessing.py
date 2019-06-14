@@ -129,6 +129,7 @@ with multiprocessing.Manager() as manager:
     while running:
         running = False
         count = 0
+        running_crawler = ""
         for crawler in crawler_processes:
             count += 1
             if crawler.is_alive():

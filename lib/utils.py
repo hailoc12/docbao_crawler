@@ -1,13 +1,10 @@
 import urllib.request
 from bs4 import BeautifulSoup
 import re
-import codecs
 from datetime import datetime
 import os
 from  lib.browser_crawl import *
 import time
-import psutil
-import pytz
 from selenium import webdriver
 from lxml import etree
 
@@ -19,32 +16,6 @@ def get_independent_os_path(path_list):
     for item in path_list:
         path = os.path.join(path, item)
     return path
-
-def get_utc_now_date():
-    return pytz.utc.localize(datetime.utcnow())
-
-def get_date_string(date, date_format, timezone):
-
-    '''
-    input
-    -----
-    timezone: tzinfo subclass
-
-    output
-    -----
-    string
-
-    '''
-    return date.astimezone(timezone).strftime(date_format)
-
-def get_max_crawler_can_be_run():
-    # get max crawler that system can support (base on free ram)
-    ram_for_each_crawler = 350000000
-    safe_margin = 0.5 # free 45% for safe
-    mem = psutil.virtual_memory()
-    swap_free = psutil.swap_memory().free
-    mem_free = (mem.free + swap_free) * safe_margin
-    return int(mem_free  / ram_for_each_crawler)
 
 def read_url_source(url, webconfig,_firefox_browser=BrowserWrapper()):
     '''
