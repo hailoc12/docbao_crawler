@@ -21,7 +21,7 @@ url = 'https://www.facebook.com/?ref=tn_tnmn' # crawl page.
 webconfig = WebConfig() # object contains crawl configuration for a specific website 
 webconfig.set_config('use_browser', True) # Use Firefox browser to crawl or not 
 webconfig.set_config('browser_fast_load', True) # use adblock extensions, disable css...to load page faster  
-webconfig.set_config('display_browser', False) # note: display_browser=True won't work if program is run through SSH 
+webconfig.set_config('display_browser', True) # note: display_browser=True won't work if program is run through SSH 
 
 ### NOTICE THIS !
 # note: you must create firefox profile test_profile first by running setup_browser.sh then use it to login Facebook by your own accout  
