@@ -1,5 +1,8 @@
 led / optimized / DLL files
 __pycache__/
+profiles/ 
+*.swo
+*.swp
 *.py[cod]
 *$py.class
 # C extensions
