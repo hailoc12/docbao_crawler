@@ -76,6 +76,7 @@ output
 Thành công: trả về string chứa toàn bộ HTML source cuả trang  
 Thất bại: trả về None (do lỗi timeout, mất mạng...)  
 Trong mọi trường hợp, _firefox_browser sẽ trả về reference tới browser được sử dụng trong cuộc gọi hàm để tái sử dụng, hoặc kill  
+~~~  
 
 ## 3. Ví dụ   
 
