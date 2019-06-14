@@ -50,7 +50,7 @@ bash install.sh
 
 ## 2. Sử dụng  
 
-Khi cần quét một trang, bạn chỉ cần gọi hàm read_url_source() từ moduble libs/utils.py  
+Khi cần quét một trang, bạn chỉ cần gọi hàm read_url_source() từ module lib/utils.py  
 
 Hàm này có cú pháp như sau:  
 
