@@ -101,7 +101,7 @@ with multiprocessing.Manager() as manager:
         # set another config here, see crawl_login_page.py for details
         #webconfig.set_config('browser_fast_load', True)
         #webconfig.set_config('browser_profile', 'test_profile')
-        webconfig.set_config('display_browser', True) #note: display_browser=True won't work in SSH mode
+        webconfig.set_config('display_browser', False) #note: display_browser=True won't work in SSH mode
         
         crawl_queue.put(webconfig)
 
