@@ -1,6 +1,8 @@
 # ĐỌC BÁO CRAWLER (PYTHON) 
 Framework quét dữ liệu hỗ trợ render javascript và quét đa luồng  
 
+Clip giới thiệu: https://youtu.be/CtJtVJh9o2c 
+
 Author: hailoc12  
 Email: danghailochp@gmail.com  
 Facebook: https://www.facebook.com/danghailochp
