@@ -1,6 +1,6 @@
 led / optimized / DLL files
 __pycache__/
-profiles/ 
+profiles/test_profile/*
 *.swo
 *.swp
 *.py[cod]

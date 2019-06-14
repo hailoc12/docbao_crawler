@@ -90,7 +90,7 @@ python3 crawl_single_page.py
 
 b. Quét một trang cần login (trong ví dụ là Google)  
 ~~~  
-Bước 1: chạy bash setup_browser.sh để mở wizard tạo profile cuả Firefox. Tạo profile mới có tên test_profile. Mở Firefox sử dụng profile này, login vào trang bạn cấn quét. Đọc Báo Crawler sẽ sử dụng cookies đã được lưu từ profile này để tự động login vào trang cấn quét  
+Bước 1: chạy bash setup_browser.sh để mở wizard tạo profile cuả Firefox. Tạo profile mới có tên test_profile. Chú ý chọn path để lưu "user settings, preferences and other user-related data" là ~/docbao_crawler/profiles/test_profile. Sau đó mở Firefox sử dụng profile này, login vào trang bạn cấn quét. Đọc Báo Crawler sẽ sử dụng cookies đã được lưu từ profile này để tự động login vào trang cấn quét  
 
 Bước 2: python3 crawl_login_page.py  
 ~~~  
