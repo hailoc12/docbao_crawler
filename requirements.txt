@@ -1,0 +1,6 @@
+beautifulsoup4==4.6.3
+lxml==4.2.5
+selenium==3.141.0
+urllib3==1.22
+PyVirtualDisplay==0.2.1
+xvfbwrapper==0.2.9
