@@ -93,7 +93,7 @@ b. Quét một trang cần login (trong ví dụ là Google)
 Bước 1: chạy bash setup_browser.sh để mở wizard tạo profile cuả Firefox. Tạo profile mới có tên test_profile. Mở Firefox sử dụng profile này, login vào trang bạn cấn quét. Đọc Báo Crawler sẽ sử dụng cookies đã được lưu từ profile này để tự động login vào trang cấn quét  
 
 Bước 2: python3 crawl_login_page.py  
-
+~~~  
 c. Quét song song nhiều trang  
 
 python3 crawl_multiprocessing.py  
